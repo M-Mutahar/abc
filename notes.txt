@@ -1,0 +1,10 @@
+#First you need to update system 
+sudo apt update 
+
+#Then you can to install below tools
+sudo apt install vim wget curl openssh-server git -y 
+
+#Now you need to enable SSH service and then connect this ubuntu system via putty on your windows 
+systemctl enable ssh 
+systemctl start ssh 
+
