@@ -8,3 +8,20 @@ sudo apt install vim wget curl openssh-server git -y
 systemctl enable ssh 
 systemctl start ssh 
 
+
+#Only use below commands first time 
+ssh-keygen 
+
+#Then cat and  copy from ~.ssh/XXXX.pub file content to your repository under deploy key option on your github 
+
+
+#how to push your repo code to github 
+
+#first clone your reposiroty to your system 
+
+git clone REPO-URL
+
+#
+git add . 
+git commit -m "added notes.txt file "
+git push 
